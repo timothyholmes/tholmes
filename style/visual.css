@@ -1,0 +1,32 @@
+.bottom-buffer { 
+    margin-bottom:30px; 
+}
+
+#main{
+    display:block;
+}
+
+#first{
+     display:none;
+}
+
+#second{
+    display:none;
+}
+
+#third{
+    display:none;
+}
+
+#fourth{
+    display:none;
+}
+
+a h1{
+    color:black;
+    font-weight: bold;
+}
+
+a:hover h1{
+    style:none;
+}
