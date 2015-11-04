@@ -2,21 +2,21 @@
 	{
 		"heading": "Bio",
 		"image": "./imgs/3.jpg",
-		"text": ""
+		"text": "<th-bio></th-bio>"
 	},
 	{
 		"heading": "Resume",
 		"image": "./imgs/1.jpg",
-		"text": ""
+		"text": "<th-resume></th-resume>"
 	},
 	{
 		"heading": "Contact",
 		"image": "./imgs/2.jpg",
-		"text": ""
+		"text": "<th-contact></th-contact>"
 	},
 	{
 		"heading": "Blog",
 		"image": "./imgs/4.jpg",
-		"text": ""
+		"text": "<th-blog></th-blog>"
 	}
 ]

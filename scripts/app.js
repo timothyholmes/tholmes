@@ -1,5 +1,5 @@
 (function(){
-	var app = angular.module('personalSite', []);
+	var app = angular.module('personalSite', ['content-directives']);
 
 	app.controller('ContentController', ['$http', function($http){
     	var body = this;

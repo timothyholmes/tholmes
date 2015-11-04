@@ -14,8 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
 
     <!-- Custom scripts and stlye -->
-    <script src="./scripts/brain.js"></script>
     <script src="./scripts/app.js"></script>
+    <script src="./scripts/directives/content-directives.js"></script>
     <link rel="stylesheet" href="./style/visual.css">
 
 </head>
@@ -28,8 +28,9 @@
         </div>
 
         <div id="main">
+            <th-bio></th-bio>
             <div class="" ng-repeat="component in content.components">
-                <img ng-src="{{ component.image }}"/>
+                {{ component.text }}
                 <hr>
             </div>
         </div>
