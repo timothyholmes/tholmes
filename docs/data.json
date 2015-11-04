@@ -1,0 +1,22 @@
+[
+	{
+		"heading": "Bio",
+		"image": "./imgs/3.jpg",
+		"text": ""
+	},
+	{
+		"heading": "Resume",
+		"image": "./imgs/1.jpg",
+		"text": ""
+	},
+	{
+		"heading": "Contact",
+		"image": "./imgs/2.jpg",
+		"text": ""
+	},
+	{
+		"heading": "Blog",
+		"image": "./imgs/4.jpg",
+		"text": ""
+	}
+]
