@@ -3,11 +3,11 @@
   $data = array(); // array to pass back data
   // validate the variables ======================================================
   if (empty($_POST['name']))
-  $errors['name'] = 'Name is required.';
+    $errors['name'] = 'Name is required.';
   if (empty($_POST['email']))
-  $errors['email'] = 'Email is required.';
+    $errors['email'] = 'Email is required.';
   if (empty($_POST['message']))
-  $errors['message'] = 'Message is required.';
+    $errors['message'] = 'Message is required.';
   // return a response ===========================================================
   // response if there are errors
   if ( ! empty($errors)) {
