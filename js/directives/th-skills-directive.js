@@ -57,9 +57,9 @@
 		  	"id": 1,
 		  	"name": "AngularJS",
 		    "url": "./imgs/icons/angular.svg",
-		    "time": "1.5 years",
-		    "rank": 7,
-		    "descrip": "Live App"
+		    "time": "2 months",
+		    "rank": 3,
+		    "descrip": "AngularJS is my favorite framework of recent memory. I've used it for two of my three major projects at StarChase, and it has allowed me to create web pages that truly behave like applications. I feel comfortable using Angular, but I am still pretty new to it. I keep the API open while I'm developing. This website was built with Angluar!"
 		  },
 		  {
 		  	"id": 2,
@@ -82,7 +82,7 @@
 		  	"name": "Bootstrap",
 		    "url": "./imgs/icons/bootstrap.svg",
 		    "time": "8 months",
-		    "rank": 5,
+		    "rank": 4,
 		    "descrip": "In our modern world, responsive design is critical. Bootstrap makes designing web applications that adjust to any screen size easy. My mentor/supervisor at StarChase was keen that everything we built needed to be built with Bootstrap. "
 		  },
 		  {
