@@ -1,0 +1,29 @@
+<div id="skills">
+	<div class="container">    
+		<h2>Skills</h2>
+	    <hr>
+	    <section>
+			<ul class="nav nav-pills">
+			    <li data-ng-class="{ active:skllsCtrl.isSet(1) }">
+			      	<a href data-ng-click="skllsCtrl.setTab(1)">Languages</a>
+			    </li>
+				<li data-ng-class="{ active:skllsCtrl.isSet(2) }">
+				  	<a href data-ng-click="skllsCtrl.setTab(2)">Frameworks/APIs</a>
+				</li>
+				<li data-ng-class="{ active:skllsCtrl.isSet(3) }">
+				  	<a href data-ng-click="skllsCtrl.setTab(3)">Tools</a>
+				</li>
+			</ul>
+
+			<div data-ng-show="skllsCtrl.isSet(1)" class="row">
+			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="language in skllsCtrl.languages" ng-src="{{ language.url }}">
+		    </div>
+		   	<div data-ng-show="skllsCtrl.isSet(2)" class="row">
+			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="framework in skllsCtrl.frameworks" ng-src="{{ framework.url }}">
+			</div>
+			<div data-ng-show="skllsCtrl.isSet(3)" class="row">
+			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="tool in skllsCtrl.tools" ng-src="{{ tool.url }}">
+			</div>
+	    </section>
+	</div>
+</div>

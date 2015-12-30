@@ -1,0 +1,21 @@
+<div id="contact">
+	<div class="container">    
+	<h2>Contact</h2>
+    <hr>  
+		<div class="row">
+			<form ng-submit="submitForm()" novalidate>
+			  <label for="name">Name</label>
+			  <input type="text" name="name" ng-model="formData.name" ng-class="{'error' : errorName}" class="form-control">
+			  <label for="email">E-mail</label>
+			  <input type="email" name="email" ng-model="formData.email" ng-class="{'error' : errorEmail}" class="form-control">
+			  <label for="message">Message</label>
+			  <textarea name="message" ng-class="{'error' : errorTextarea}"ng-model="formData.message" class="form-control" rows="10"></textarea>
+			  <div id="submitEmail"><input type="submit" class="btn btn-primary pull-right" value="Submit" /></div>
+			</form>
+		</div>
+		<div id="mailResponse">
+			<div ng-show="error" class="alert alert-danger" ng-bind="submissionMessage" role="alert"></div>
+			<div ng-show="madeIt" class="alert alert-success" ng-bind="submissionMessage" role="alert"></div>
+		</div>
+	</div>
+</div>

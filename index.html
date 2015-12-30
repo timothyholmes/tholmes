@@ -14,31 +14,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
 
     <!-- Custom scripts and stlye -->
-    <script src="./scripts/app.js"></script>
-    <script src="./scripts/directives/content-directives.js"></script>
-    <link rel="stylesheet" href="./style/visual.css">
+    <script src="./js/app.js"></script>
+    <script src="./js/directives/th-header-directive.js"></script>
+    <script src="./js/directives/th-about-directive.js"></script>
+    <script src="./js/directives/th-education-directive.js"></script>
+    <script src="./js/directives/th-work-directive.js"></script>
+    <script src="./js/directives/th-skills-directive.js"></script>
+    <script src="./js/directives/th-contact-directive.js"></script>
+    <link rel="stylesheet" href="./css/visual.css">
 
 </head>
 
 <body ng-controller="ContentController as content">
-    <div class="container">
-        <div class="">
-            <a href="./index.html"><h1>timothy holmes</h1></a>
-            <hr>
-        </div>
-
-        <div id="main">
-            <th-bio></th-bio>
-            <div class="" ng-repeat="component in content.components">
-                {{ component.text }}
-                <hr>
-            </div>
-        </div>
-
-        <footer>
-            <hr>
-            Tim Holmes 2015
-        </footer>
-    </div>
+    <th-header></th-header>
+    <th-about></th-about>
+    <th-education></th-education>
+    <th-work></th-work>
+    <th-skills></th-skills>
+    <th-contact></th-contact>
+    <footer>    
+        <div class="container">
+            <p>&copy; Tim Holmes 2015</p>
+        <div>
+    </footer>
 </body>
 </html>

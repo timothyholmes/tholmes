@@ -1,0 +1,64 @@
+.jumbotron {
+	background-image: url("../imgs/1.jpg");
+	background-size: cover;
+	min-height: 750px;
+}
+
+#headerText {
+	color: #ffffff;
+}
+
+#aboutText {
+	padding:25px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#education {
+	background-color: #3761A9;
+	color: #ffffff;
+	padding:25px;
+}
+
+#work {
+	padding:25px;
+}
+
+#skills {
+	background-color: #42CD95;
+	color: #ffffff;
+	padding:25px;	
+}
+
+footer {
+	padding: 5px;
+	background-color: #777777;
+	color: #ffffff;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.submissionMessage {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 2px white;
+  width: 60%;
+}
+
+#contact {
+	padding: 25px;
+}
+
+#submitEmail {
+	padding:15px;
+}
+
+#mailResponse { 
+	padding:15px;
+}
