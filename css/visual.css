@@ -18,6 +18,8 @@ h2 {
 
 #education {
 	background-color: #3761A9;
+	/*background-image: url("../imgs/2.jpg");
+	background-size: cover;*/
 	color: #ffffff;
 	padding:25px;
 }
@@ -27,7 +29,7 @@ h2 {
 }
 
 #skills {
-	background-color: #42CD95;
+	background-color: #6FD3CB;
 	color: #ffffff;
 	padding:25px;	
 }
@@ -61,4 +63,8 @@ footer {
 
 #mailResponse { 
 	padding:15px;
+}
+
+.underTabContent {
+	padding: 5px;
 }

@@ -15,14 +15,16 @@
 				</li>
 			</ul>
 
-			<div data-ng-show="skllsCtrl.isSet(1)" class="row">
-			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="language in skllsCtrl.languages" ng-src="{{ language.url }}">
-		    </div>
-		   	<div data-ng-show="skllsCtrl.isSet(2)" class="row">
-			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="framework in skllsCtrl.frameworks" ng-src="{{ framework.url }}">
-			</div>
-			<div data-ng-show="skllsCtrl.isSet(3)" class="row">
-			    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="tool in skllsCtrl.tools" ng-src="{{ tool.url }}">
+			<div class="underTabContent">
+				<div data-ng-show="skllsCtrl.isSet(1)" class="row">
+				    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="language in skllsCtrl.languages" ng-src="{{ language.url }}">
+			    </div>
+			   	<div data-ng-show="skllsCtrl.isSet(2)" class="row">
+				    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="framework in skllsCtrl.frameworks" ng-src="{{ framework.url }}">
+				</div>
+				<div data-ng-show="skllsCtrl.isSet(3)" class="row">
+				    <img class="img-responsive col-lg-2 col-md-2" ng-repeat="tool in skllsCtrl.tools" ng-src="{{ tool.url }}">
+				</div>
 			</div>
 	    </section>
 	</div>
