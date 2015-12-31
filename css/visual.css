@@ -4,34 +4,49 @@
 	min-height: 750px;
 }
 
+h2 {
+	text-align: center;
+}
+
 #headerText {
 	color: #ffffff;
 }
 
 #aboutText {
-	padding:25px;
-}
-
-h2 {
-	text-align: center;
+	margin-bottom: 20px;
 }
 
 #education {
-	background-color: #3761A9;
-	/*background-image: url("../imgs/2.jpg");
-	background-size: cover;*/
+	/*background-color: #3761A9;*/
+	background-image: url("../imgs/2bkr.jpg");
+    background-attachment: fixed;
+	background-size: cover;
 	color: #ffffff;
-	padding:25px;
+}
+#education ul {
+	font-size: 20px;
 }
 
 #work {
-	padding:25px;
+	margin-bottom: 20px;
 }
 
 #skills {
 	background-color: #6FD3CB;
 	color: #ffffff;
 	padding:25px;	
+}
+
+#contact {
+	padding: 25px;
+}
+
+#submitEmail {
+	padding:15px;
+}
+
+#mailResponse { 
+	padding:15px;
 }
 
 footer {
@@ -51,18 +66,6 @@ footer {
   display: block;
   box-shadow: 0 0 2px white;
   width: 60%;
-}
-
-#contact {
-	padding: 25px;
-}
-
-#submitEmail {
-	padding:15px;
-}
-
-#mailResponse { 
-	padding:15px;
 }
 
 .underTabContent {
