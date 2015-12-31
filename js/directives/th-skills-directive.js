@@ -98,31 +98,31 @@
 		container.frameworks = [
 		  {
 		  	"id": 1,
-		  	"name": "AngularJS",
-		    "url": "./imgs/icons/angular.svg",
-		    "time": "2 months",
-		    "descrip": "AngularJS is my favorite framework of recent memory. I've used it for two of my three major projects at StarChase, and it has allowed me to create web pages that truly behave like applications. I feel comfortable using Angular, but I am still pretty new to it. I keep the API documentation open while I'm developing. This website was built with Angluar!",
-		    "projects": [
-		    	{
-		    		"name": "StarChase Email Processor"
-		    	},
-		    	{
-		    		"name": "StarChase Task Manager"
-		    	},
-		    	{
-		    		"name": "StarChase R&D"
-		    	},
-		    	{
-		    		"name": "Personal Website"
-		    	}
-		    ]
-		  },
-		  {
-		  	"id": 2,
 		  	"name": "HTML5/CSS3",
 		    "url": "./imgs/icons/html_this.png",
 		    "time": "5 years",
-		    "descrip": "HTML/CSS is what got me thinking about programming. Truly, I've been tinkering with these frameworks for the majority of my life. I spent a lot of time as a kid buildiing themes for social networks (MySpace and Tumblr.) Professionally, every computer related job I've encountered as required editing webpages. I played around with new features introduced in HTML5/CSS3, but haven't interacted with them enough to know how to use them without reference.",
+		    "descrip": "HTML/CSS is what got me thinking about programming. Truly, I've been tinkering with these frameworks for the majority of my life. I spent a lot of time as a kid buildiing themes for social networks (MySpace and Tumblr.) Professionally, every computer related job I've encountered has required editing webpages. I've played around with new features introduced in HTML5/CSS3, but haven't interacted with them enough to know how to use them without reference.",
+		    "projects": [
+		    	{
+		    		"name": "StarChase Email Processor"
+		    	},
+		    	{
+		    		"name": "StarChase Task Manager"
+		    	},
+		    	{
+		    		"name": "StarChase R&D"
+		    	},
+		    	{
+		    		"name": "Personal Website"
+		    	}
+		    ]
+		  },
+		  {
+		  	"id": 1,
+		  	"name": "HTML5/CSS3",
+		    "url": "./imgs/icons/css.svg",
+		    "time": "5 years",
+		    "descrip": "HTML/CSS is what got me thinking about programming. Truly, I've been tinkering with these frameworks for the majority of my life. I spent a lot of time as a kid buildiing themes for social networks (MySpace and Tumblr.) Professionally, every computer related job I've encountered has required editing webpages. I've played around with new features introduced in HTML5/CSS3, but haven't interacted with them enough to know how to use them without reference.",
 		    "projects": [
 		    	{
 		    		"name": "StarChase Email Processor"
@@ -140,27 +140,6 @@
 		  },
 		  {
 		  	"id": 2,
-		  	"name": "HTML5/CSS3",
-		    "url": "./imgs/icons/css_this.svg",
-		    "time": "5 years",
-		    "descrip": "HTML/CSS is what got me thinking about programming. Truly, I've been tinkering with these frameworks for the majority of my life. I spent a lot of time as a kid buildiing themes for social networks (MySpace and Tumblr.) Professionally, every computer related job I've encountered as required editing webpages. I played around with new features introduced in HTML5/CSS3, but haven't interacted with them enough to know how to use them without reference.",
-		    "projects": [
-		    	{
-		    		"name": "StarChase Email Processor"
-		    	},
-		    	{
-		    		"name": "StarChase Task Manager"
-		    	},
-		    	{
-		    		"name": "StarChase R&D"
-		    	},
-		    	{
-		    		"name": "Personal Website"
-		    	}
-		    ]
-		  },
-		  {
-		  	"id": 3,
 		  	"name": "Bootstrap",
 		    "url": "./imgs/icons/bootstrap.svg",
 		    "time": "8 months",
@@ -181,11 +160,32 @@
 		    ]
 		  },
 		  {
+		  	"id": 3,
+		  	"name": "AngularJS",
+		    "url": "./imgs/icons/angular.svg",
+		    "time": "2 months",
+		    "descrip": "AngularJS is my favorite framework of recent memory. I've used it for two of my three major projects at StarChase, and it has allowed me to create web pages that truly behave like applications. I feel comfortable using Angular, but I am still pretty new to it. I keep the API documentation open while I'm developing. This website was built with Angluar!",
+		    "projects": [
+		    	{
+		    		"name": "StarChase Email Processor"
+		    	},
+		    	{
+		    		"name": "StarChase Task Manager"
+		    	},
+		    	{
+		    		"name": "StarChase R&D"
+		    	},
+		    	{
+		    		"name": "Personal Website"
+		    	}
+		    ]
+		  },
+		  {
 		  	"id": 4,
 		  	"name": "Google Maps API V3",
 		    "url": "./imgs/icons/map1.png",
 		    "time": "8 months",
-		    "descrip": "Google offers an service with their mapping API. I've been in an out of this API, and the functionality they offer is extremely impressive. NDAs keep me from being too specific about what I've done with this API. Here's a small map of some resturants I recommend:",
+		    "descrip": "Google offers an service with their mapping API. I've been in an out of this API, and the functionality they offer is extremely impressive. NDAs keep me from being too specific about what I've done with this API, but I can demonstrate general knowledge about how it works.",
 		    "projects": [
 		    	{
 		    		"name": "StarChase R&D"
