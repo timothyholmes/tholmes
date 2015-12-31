@@ -16,6 +16,10 @@ h2 {
 	margin-bottom: 20px;
 }
 
+#aboutText p {
+	font-size: 18px;
+}
+
 #education {
 	/*background-color: #3761A9;*/
 	background-image: url("../imgs/2bkr.jpg");
