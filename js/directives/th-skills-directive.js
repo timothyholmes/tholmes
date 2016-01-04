@@ -23,7 +23,7 @@
 		  	"name": "JavaScript",
 		    "url": "./imgs/icons/javascript.svg",
 		    "time": "8 months",
-		    "descrip": "JavaScript is what I've had the most consistent exposure to professionally, as well as where I like to spend my time. at StarChase, most of my projects have used JavaScript. For the email processor I used JavaScript to manipulate data before sending it to the back end. I've exclusively used JavaScript to interact with the Google Maps API.",
+		    "descrip": "JavaScript is what I've had the most consistent exposure to professionally, as well as where I like to spend my time. At StarChase, most of my projects have used JavaScript. For the email processor, I used JavaScript to manipulate data before sending it to the back end. I've exclusively used JavaScript to interact with the Google Maps API.",
 		    "projects": [
 		    	{
 		    		"name": "StarChase Email Processor"
