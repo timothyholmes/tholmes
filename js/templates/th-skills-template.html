@@ -18,23 +18,23 @@
 			<div class="underTabContent">
 				<div class="row">
 					<div data-ng-show="skllsCtrl.isSet(1)" class="row">
-					    <img class="img-responsive col-lg-3 col-md-3 col-sm-6 col-xs-6" ng-repeat="language in skllsCtrl.languages" ng-click="skllsCtrl.setActiveEle(language.id)" ng-src="{{ language.url }}">
+					    <img class="img-responsive col-lg-3 col-md-3 col-sm-6 col-xs-6" data-ng-repeat="language in skllsCtrl.languages" data-ng-click="skllsCtrl.setActiveEle(language.id)" data-ng-src="{{ language.url }}">
 				    </div>
 				   	<div data-ng-show="skllsCtrl.isSet(2)" class="row">
-					    <img class="img-responsive col-lg-2 col-md-3 col-sm-6 col-xs-6" ng-repeat="framework in skllsCtrl.frameworks" ng-click="skllsCtrl.setActiveEle(framework.id)" ng-src="{{ framework.url }}">
+					    <img class="img-responsive col-lg-2 col-md-3 col-sm-6 col-xs-6" data-ng-repeat="framework in skllsCtrl.frameworks" data-ng-click="skllsCtrl.setActiveEle(framework.id)" data-ng-src="{{ framework.url }}">
 					</div>
 					<div data-ng-show="skllsCtrl.isSet(3)" class="row">
-					    <img class="img-responsive col-lg-3 col-md-3 col-sm-6 col-xs-6" ng-repeat="tool in skllsCtrl.tools" ng-click="skllsCtrl.setActiveEle(tool.id)" ng-src="{{ tool.url }}">
+					    <img class="img-responsive col-lg-3 col-md-3 col-sm-6 col-xs-6" data-ng-repeat="tool in skllsCtrl.tools" data-ng-click="skllsCtrl.setActiveEle(tool.id)" data-ng-src="{{ tool.url }}">
 					</div>
 				</div>
 				<div data-ng-hide="skllsCtrl.isActiveEle(0)" class="row">
 					<h3><strong>{{ skllsCtrl.detailView[0].name }}</strong></h3>
 					<h4>Time: {{ skllsCtrl.detailView[0].time }}</h4>
 					<p>{{ skllsCtrl.detailView[0].descrip }}</p>
-					<div ng-show="skllsCtrl.detailView[0].projects">
+					<div data-ng-show="skllsCtrl.detailView[0].projects">
 						<h4>Associated Projects:</h4>
 						<ul>
-							<li ng-repeat="project in skllsCtrl.detailView[0].projects">{{ project.name }}</li>
+							<li data-ng-repeat="project in skllsCtrl.detailView[0].projects">{{ project.name }}</li>
 						</ul>
 					</div>
 				</div>

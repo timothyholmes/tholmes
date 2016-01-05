@@ -1,13 +1,3 @@
-.jumbotron {
-	background-image: url("../imgs/1.jpg");
-	background-size: cover;
-	min-height: 750px;
-}
-
-h2 {
-	text-align: center;
-}
-
 #submitEmail {
   margin-bottom: 30px;
   margin-top: 15px;
@@ -64,6 +54,10 @@ footer {
 	color: #ffffff;
 }
 
+h2 {
+	text-align: center;
+}
+
 .error {
   background-color: rgba(255, 0, 0, 0.2);
 }
@@ -79,4 +73,10 @@ footer {
 
 .underTabContent {
 	padding: 5px;
+}
+
+.jumbotron {
+	background-image: url("../imgs/1.jpg");
+	background-size: cover;
+	min-height: 750px;
 }
