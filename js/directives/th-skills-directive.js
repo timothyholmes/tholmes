@@ -83,7 +83,7 @@
 		  	"name": "Java",
 		    "url": "./imgs/icons/java.svg",
 		    "time": "1 year",
-		    "descrip": "I used Java in a few different courses at ODU, but really had an oppurtunity to get my hand dirty with it during my senior project. I worked on a team of students that developed a program that could display and manipulate genome files. We extensively utilized the BioJava API in order to develop this program. My contribution was implementing the file exporting, and change saving functionality.",
+		    "descrip": "I used Java in a few different courses at ODU, but really had an oppurtunity to get my hand dirty with it during my senior project. I worked on a team of students that developed a program that could display and manipulate genome files. We extensively utilized the BioJava API in order to develop this program. My contribution was implementing the file exporting functionality.",
 		    "projects": [
 		    	{
 		    		"name": "Unverified Join Viewer"
