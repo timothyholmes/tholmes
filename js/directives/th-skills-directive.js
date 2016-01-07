@@ -170,9 +170,6 @@
 		    		"name": "StarChase Email Processor"
 		    	},
 		    	{
-		    		"name": "StarChase Task Manager"
-		    	},
-		    	{
 		    		"name": "StarChase R&D"
 		    	},
 		    	{
