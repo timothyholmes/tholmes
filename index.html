@@ -21,17 +21,104 @@
     <script src="./js/directives/th-work-directive.js"></script>
     <script src="./js/directives/th-skills-directive.js"></script>
     <script src="./js/directives/th-contact-directive.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./css/visual.css">
-
 </head>
 
 <body data-ng-controller="ContentController as content">
-    <th-header></th-header>
-    <th-about></th-about>
-    <th-education></th-education>
-    <th-work></th-work>
+
+    <header>
+        <div id="header">
+        <h1>Tim Holmes</h1>
+        <h4>Web Developer</h4>
+        </div>
+    </header>
+    
+    <div class=container id="aboutText">
+        <h2>About</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 col-md-8">
+                <p>I am a software developer living in Norfolk, Virginia. I am interested in building concise, responsive, and scalable web applications. While I am most interested in front end and UI/UX design, I have some back end experience as well. I hope to eventually work with iOS development.</p>
+                <p>Aside from programming I have a passion for music, bicycles, and reading.</p>
+                <p><a href="#contact">Contact me</a> if you'd like to know more!</a>
+            </div>
+            <div class="col-lg-6 col-md-4">
+                <img class="img-responsive" src="./imgs/3.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="education">   
+    <div class=container>
+    <h2>Education</h2>
+        <div class="row">
+            <div>
+                <h3>Bachelor of Science: Computer Science</h3>
+                <ul>
+                    <li>Old Dominion University</li>
+                    <li>Spring 2016</li>
+                    <li>GPA: 3.17</li>
+                    <li>Member of National Society of Collegiate Scholars</li>
+                    <li>Member of Association for Computing Machinery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div id="work">
+    <div class="container">    
+    <h2>Work</h2>
+    <hr>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+            <h3>Software Development Intern</h3>
+            <ul>
+                <li>StarChase LLC</li>
+                <li>May 2015 - Present</li>
+                <li>Build web applications for internal and commercial use</li>
+                    <ul>
+                        <li>Front end: HTML/CSS, JavaScript, Google Maps API v3, AngularJS</li>
+                        <li>Middleware: AJAX, JSON</li>
+                        <li>Back end: PHP, Python</li>
+                        <li>DBMS: MySQL</li>
+                    </ul>
+                <li>Implement changes to <a href="http://starchase.com">company website</a></li>
+                <li>Develop wordpress website for <a href="http://www.pursuitforchange.org/">Pursuit for Change</a> (private while being developed)</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Peer Advisor</h3>
+            <ul>
+                <li>Old Dominion University Computer Science Department</li>
+                <li>September 2013 – May 2015</li>
+                <li>Maintain the advising section of the Computer Science website</li>
+                <li>Assist students with signing up for classes for the current semester, and planning for the future</li>
+            </ul>
+       </div>
+        <div class="col-md-4">
+            <h3>Research Assistant</h3>
+            <ul>
+                <li>Old Dominion University Research Foundation</li>
+                <li>May 2013 – September 2013</li>
+                <li>Worked on a team of student software developers to provide quality products to clients</li>
+                <li>Design a prototype website for the ODU STEM department</li>
+                <ul>
+                    <li>Built with HTML/CSS, jQuery, and PHP</li>
+                    <li>Source code available <a href="https://github.com/timothyholmes/stem-site-prototype">here.</a></li>
+                    <li>Live Version available <a href="http://www.cs.odu.edu/~tholmes/STEM/main.php">here.</a></li> 
+                </ul>
+            </ul>
+        </div>
+      </div>
+    </div>
+</div>
+    
     <th-skills></th-skills>
     <th-contact></th-contact>
+
     <footer>    
         <div class="container">
             <p>&copy; Tim Holmes 2015</p>

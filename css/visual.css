@@ -1,10 +1,23 @@
+/*html {font-family: 'Roboto', sans-serif;}
+*/
+#header {
+	background-color: #eeeeee;
+	font-size: 500px; 
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+#education {
+	background-color: #eeeeee;
+	font-size: 500px; 
+}
+
+/**********************************/
+
 #submitEmail {
   margin-bottom: 30px;
   margin-top: 15px;
-}
-
-#headerText {
-	color: #ffffff;
 }
 
 #aboutText {
@@ -15,13 +28,6 @@
 	font-size: 18px;
 }
 
-#education {
-	/*background-color: #3761A9;*/
-	background-image: url("../imgs/2bkr.jpg");
-    background-attachment: fixed;
-	background-size: cover;
-	color: #ffffff;
-}
 #education ul {
 	font-size: 20px;
 }
@@ -73,10 +79,4 @@ h2 {
 
 .underTabContent {
 	padding: 5px;
-}
-
-.jumbotron {
-	background-image: url("../imgs/1.jpg");
-	background-size: cover;
-	min-height: 750px;
 }
