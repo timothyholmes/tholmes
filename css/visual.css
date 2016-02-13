@@ -24,59 +24,16 @@
 	margin-bottom: 20px;
 }
 
-#aboutText p {
-	font-size: 18px;
-}
-
 #education ul {
-	font-size: 20px;
+	font-size: 16px;
 }
 
 #work {
 	margin-bottom: 20px;
 }
 
-#skills {
-	background-color: #6FD3CB;
-	color: #ffffff;
-	padding:25px;	
-}
-
-#contact {
-	padding: 25px;
-}
-
-#submitEmail {
-	padding:15px;
-}
-
-#mailResponse { 
-	padding:15px;
-}
-
 footer {
 	padding: 5px;
-	background-color: #777777;
-	color: #ffffff;
-}
-
-h2 {
-	text-align: center;
-}
-
-.error {
-  background-color: rgba(255, 0, 0, 0.2);
-}
-.submissionMessage {
-  background-color: rgba(255,255,255, 0.2);
-  border-radius: 5px;
-  padding: 12px;
-  text-align: center;
-  display: block;
-  box-shadow: 0 0 2px white;
-  width: 60%;
-}
-
-.underTabContent {
-	padding: 5px;
+	background-color: #eeeeee;
+	color: #000000;
 }
