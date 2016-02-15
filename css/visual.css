@@ -44,3 +44,11 @@ footer {
 	background-color: #3C565E;
 	color: #ffffff;
 }
+
+footer img {
+	max-width: 50px;
+}
+
+#copy {
+	text-align:right;
+}
