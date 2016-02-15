@@ -49,3 +49,24 @@ footer {
 footer img {
 	max-width: 50px;
 }
+
+hr {
+	border: 1px solid #3C565E;
+}
+
+#copy {
+	margin-top: 20px;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+footer a:hover {
+	color: #f5f5f5;
+}
+
+footer a:visited {
+	color: #f5f5f5;
+	text-decoration: none;
+}
