@@ -1,0 +1,23 @@
+{
+  "name": "tholmes",
+  "version": "1.0.0",
+  "description": "Personal site for Tim Holmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothyholmes/tholmes.git"
+  },
+  "author": "Tim Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyholmes/tholmes/issues"
+  },
+  "homepage": "http://cs.odu.edu/~tholmes",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
