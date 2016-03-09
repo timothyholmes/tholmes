@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
+$light-bg: #fcfcfc;
+$dark-bg: #3C565E;
+
 html body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -17,7 +20,7 @@ html body {
 }
 
 #about, #work {
-	background-color: #fcfcfc;
+	background-color: $light-bg;
 }
 
 #copy {
@@ -35,13 +38,13 @@ h4 {
 }
 
 hr {
-	border: 1px solid #3C565D;
+	border: 1px solid $dark-bg;
 }
 
 footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #3C565E;
+	background-color: $dark-bg;
 	color: #ffffff;
 	text-align: center;
 	img {
@@ -50,10 +53,10 @@ footer {
 	a {
 		color: #ffffff;
 		&:hover {
-			color: #fcfcfc;
+			color: $light-bg;
 		}
 		&:visited {
-			color: #fcfcfc;
+			color: $light-bg;
 			text-decoration: none;
 		}
 	}
