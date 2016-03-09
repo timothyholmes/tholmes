@@ -9,7 +9,6 @@ html body {
 	padding-top: 10%;
 	padding-bottom: 10%;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 }
 
@@ -27,14 +26,16 @@ html body {
 
 h2 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 }
 
 h4 {
 	margin-left: 1%;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
+}
+
+hr {
+	border: 1px solid #3C565D;
 }
 
 footer {
@@ -43,25 +44,17 @@ footer {
 	background-color: #3C565E;
 	color: #ffffff;
 	text-align: center;
-}
-
-footer img {
-	max-width: 50px;
-}
-
-hr {
-	border: 1px solid #3C565E;
-}
-
-footer a {
-	color: #ffffff;
-}
-
-footer a:hover {
-	color: #fcfcfc;
-}
-
-footer a:visited {
-	color: #fcfcfc;
-	text-decoration: none;
+	img {
+		max-width: 50px;
+	}
+	a {
+		color: #ffffff;
+		&:hover {
+			color: #fcfcfc;
+		}
+		&:visited {
+			color: #fcfcfc;
+			text-decoration: none;
+		}
+	}
 }
