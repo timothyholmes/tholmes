@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
-$light-bg: #fcfcfc;
+$light-bg: #F2F7FC;
 $dark-bg: #3C565E;
 
 html body {
@@ -35,6 +35,10 @@ h2 {
 h4 {
 	margin-left: 1%;
 	font-weight: 700;
+}
+
+p {
+	margin-left: 10px;
 }
 
 hr {
