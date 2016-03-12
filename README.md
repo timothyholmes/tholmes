@@ -1,6 +1,6 @@
 # Personal Website
 
-[Live version here!](http://www.cs.odu.edu/~tholmes/)
+[Live version here!](http://timholm.es)
 
 ## Building
 
