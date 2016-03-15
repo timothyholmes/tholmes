@@ -1,17 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
-$light-bg: #F4F7FA;
-$dark-bg: #3C565D;
+$light-bg: #EAEEF1;
+$dark-bg: #3C565E;
 
 html body {
 	font-family: 'Roboto', sans-serif;
 }
 
 #header {
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top: 30vh;
 	text-align: center;
-	font-weight: 900;
+	height: 100vh;
+	h1 {
+		font-size: 20vmin;
+	}
+	h4 {
+		font-size: 5vmin;
+	}
 }
 
 .content-row {

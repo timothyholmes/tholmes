@@ -3,10 +3,13 @@ html body {
   font-family: 'Roboto', sans-serif; }
 
 #header {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 30vh;
   text-align: center;
-  font-weight: 900; }
+  height: 100vh; }
+  #header h1 {
+    font-size: 20vmin; }
+  #header h4 {
+    font-size: 5vmin; }
 
 .content-row {
   padding-top: 20px;
@@ -15,7 +18,7 @@ html body {
     text-align: center; }
 
 #about, #work {
-  background-color: #F4F7FA; }
+  background-color: #EAEEF1; }
 
 h1 {
   font-weight: 900; }
@@ -24,12 +27,12 @@ h2, h4 {
   font-weight: 700; }
 
 hr {
-  border: 1px solid #3C565D; }
+  border: 1px solid #3C565E; }
 
 footer {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #3C565D;
+  background-color: #3C565E;
   color: #ffffff;
   text-align: center; }
   footer .icon-row {
@@ -39,7 +42,7 @@ footer {
   footer a {
     color: #ffffff; }
     footer a:hover {
-      color: #F4F7FA; }
+      color: #EAEEF1; }
     footer a:visited {
-      color: #F4F7FA;
+      color: #EAEEF1;
       text-decoration: none; }
