@@ -46,7 +46,8 @@
   0% {
     opacity: 0; }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+    z-index: -2; } }
 
 html body {
   font-family: 'Roboto', sans-serif;
@@ -67,7 +68,8 @@ header {
     animation-name: fade;
     animation-duration: 1s;
     animation-delay: 1.5s;
-    animation-fill-mode: forwards; }
+    animation-fill-mode: forwards;
+    z-index: 0; }
   header .box {
     position: absolute;
     opacity: 0;
@@ -79,7 +81,7 @@ header {
     width: 45vw;
     top: 20vh;
     left: 30vw;
-    z-index: -4;
+    z-index: 0;
     animation-name: blue;
     animation-delay: 0.2s;
     transform: skewX(-25deg); }
@@ -89,7 +91,7 @@ header {
     width: 20vw;
     top: 20vh;
     left: 20vw;
-    z-index: -2;
+    z-index: 0;
     animation-name: pink;
     animation-delay: 0.4s;
     transform: rotate(-200deg); }
@@ -99,14 +101,15 @@ header {
     width: 35vw;
     top: 30vh;
     left: 45vw;
-    z-index: -3;
+    z-index: 0;
     animation-name: green;
     animation-delay: 0.5s;
     transform: skewY(5deg); }
 
 .content-row {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1; }
   .content-row h2 {
     font-weight: 700;
     text-align: center; }
