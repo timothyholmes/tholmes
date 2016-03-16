@@ -2,42 +2,32 @@
 @keyframes blue {
   0% {
     margin-top: -700px;
-    opacity: 1; }
-  30% {
-    transform: rotate(0deg); }
-  55% {
-    transform: rotate(5deg); }
-  85% {
-    transform: rotate(-5deg); }
-  100% {
+    opacity: 1;
+    transform: skewX(0deg); }
+  40% {
     margin-top: 0px;
-    opacity: 1; } }
+    transform: skewX(0deg); }
+  70% {
+    transform: skewX(0deg); }
+  100% {
+    opacity: 1;
+    transform: skewX(-20deg); } }
 
 @keyframes green {
   0% {
     margin-top: 2000px;
-    opacity: 1; }
-  30% {
-    transform: rotate(0deg); }
-  55% {
-    transform: rotate(5deg); }
-  85% {
-    transform: rotate(-5deg); }
+    opacity: 1;
+    transform: skewY(5deg); }
   100% {
-    margin-top: 0px;
+    transform: skewY(5deg);
     opacity: 1; } }
 
 @keyframes pink {
-  0% {
+  from {
     margin-left: -700px;
     opacity: 1; }
-  25% {
-    transform: rotate(-50deg); }
-  50% {
-    transform: rotate(-100deg); }
-  75% {
-    transform: rotate(-150deg); }
-  100% {
+  to {
+    transform: rotate(1.5turn);
     transform: rotate(-200deg);
     margin-left: 0px;
     opacity: 1; } }
@@ -47,7 +37,7 @@
     opacity: 0; }
   100% {
     opacity: 1;
-    z-index: -2; } }
+    z-index: 0; } }
 
 html body {
   font-family: 'Roboto', sans-serif;
@@ -69,7 +59,7 @@ header {
     animation-duration: 1s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
-    z-index: 3; }
+    z-index: 1; }
   header .box {
     position: absolute;
     opacity: 0;
@@ -81,10 +71,9 @@ header {
     width: 45vw;
     top: 20vh;
     left: 30vw;
-    z-index: -4;
+    z-index: -3;
     animation-name: blue;
-    animation-delay: 0.2s;
-    transform: skewX(-25deg); }
+    animation-delay: 0.2s; }
   header #box2 {
     background-color: rgba(250, 54, 132, 0.5);
     height: 30vh;
@@ -93,8 +82,7 @@ header {
     left: 20vw;
     z-index: -2;
     animation-name: pink;
-    animation-delay: 0.4s;
-    transform: rotate(-200deg); }
+    animation-delay: 0.4s; }
   header #box3 {
     background-color: rgba(28, 232, 148, 0.5);
     height: 45vh;
@@ -103,8 +91,7 @@ header {
     left: 45vw;
     z-index: -2;
     animation-name: green;
-    animation-delay: 0.5s;
-    transform: skewY(5deg); }
+    animation-delay: 0.5s; }
 
 .content-row {
   padding-top: 50px;

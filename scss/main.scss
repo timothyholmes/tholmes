@@ -8,19 +8,18 @@ $box-color: #3660FA;
   0% {
   	margin-top: -700px;
 	opacity: 1;
+  	transform: skewX(0deg);
   }
-  30% {
-  	transform: rotate(0deg);
+  40% {
+	margin-top: 0px;  
+  	transform: skewX(0deg);
   }
-  55% {
-  	transform: rotate(5deg);
-  }
-  85% {
-  	transform: rotate(-5deg);
+  70% {
+  	transform: skewX(0deg);
   }
   100% {
-	margin-top: 0px;  
 	opacity: 1;
+  	transform: skewX(-20deg);
   }
 }
 
@@ -28,37 +27,21 @@ $box-color: #3660FA;
   0% {
   	margin-top: 2000px;
 	opacity: 1;
-  }
-  30% {
-  	transform: rotate(0deg);
-  }
-  55% {
-  	transform: rotate(5deg);
-  }
-  85% {
-  	transform: rotate(-5deg);
+  	transform: skewY(5deg);
   }
   100% {
-	margin-top: 0px;  
+  	transform: skewY(5deg);
 	opacity: 1;
   }
 }
 
 @keyframes pink {
-  0% {
+  from {
   	margin-left: -700px;
 	opacity: 1;
   }
-  25% {
-  	transform: rotate(-50deg);
-  }
-  50% {
-  	transform: rotate(-100deg);
-  }
-  75% {
-  	transform: rotate(-150deg);
-  }
-  100% {
+  to {
+  	transform: rotate(1.5turn);
   	transform: rotate(-200deg);
   	margin-left: 0px;
 	opacity: 1;
@@ -71,7 +54,7 @@ $box-color: #3660FA;
 	}
 	100% {
 		opacity: 1;
-  		z-index: -2;
+  		z-index: 0;
 	}
 }
 
@@ -98,7 +81,7 @@ header {
 		animation-duration: 1s;  
 		animation-delay: 1.5s;
 		animation-fill-mode: forwards;
-  		z-index: 3;
+  		z-index: 1;
 	}
 	.box {
 		position: absolute;
@@ -113,10 +96,9 @@ header {
 		width: 45vw;
 		top: 20vh;
   		left: 30vw;
-  		z-index: -4;
+  		z-index: -3;
   		animation-name: blue;
 		animation-delay: 0.2s;
-  		transform: skewX(-25deg);
 	}
 	#box2 {
 		$color2: #FA3684;
@@ -128,7 +110,6 @@ header {
   		z-index: -2;
 		animation-name: pink;
 		animation-delay: 0.4s;
-  		transform: rotate(-200deg);
 	}
 	#box3 {
 		$color3: #1CE894;
@@ -140,7 +121,6 @@ header {
   		z-index: -2;
   		animation-name: green;
 		animation-delay: 0.5s;
-  		transform: skewY(5deg);
 	}
 }
 
