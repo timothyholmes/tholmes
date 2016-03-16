@@ -101,7 +101,6 @@ header {
 	}
 	.box {
 		position: absolute;
-  		z-index: -2;
   		opacity: 0;
 		animation-fill-mode: forwards;
 		animation-duration: 0.75s;
@@ -112,6 +111,7 @@ header {
 		width: 45vw;
 		top: 20vh;
   		left: 30vw;
+  		z-index: -4;
   		animation-name: blue;
 		animation-delay: 0.2s;
   		transform: skewX(-25deg);
@@ -122,16 +122,18 @@ header {
 		width: 20vw;
 		top: 20vh;
   		left: 20vw;
+  		z-index: -2;
 		animation-name: pink;
 		animation-delay: 0.4s;
   		transform: rotate(-200deg);
 	}
 	#box3 {
-		background-color: rgba( #1CE872, 0.5 );
+		background-color: rgba( #1CE894, 0.5 );
 		height: 45vh;
 		width: 35vw;
 		top: 30vh;
   		left: 45vw;
+  		z-index: -3;
   		animation-name: green;
 		animation-delay: 0.5s;
   		transform: skewY(5deg);
