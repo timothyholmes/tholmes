@@ -98,7 +98,7 @@ header {
 		animation-duration: 1s;  
 		animation-delay: 1.5s;
 		animation-fill-mode: forwards;
-  		z-index: 0;
+  		z-index: 3;
 	}
 	.box {
 		position: absolute;
@@ -113,7 +113,7 @@ header {
 		width: 45vw;
 		top: 20vh;
   		left: 30vw;
-  		z-index: 0;
+  		z-index: -4;
   		animation-name: blue;
 		animation-delay: 0.2s;
   		transform: skewX(-25deg);
@@ -125,7 +125,7 @@ header {
 		width: 20vw;
 		top: 20vh;
   		left: 20vw;
-  		z-index: 0;
+  		z-index: -2;
 		animation-name: pink;
 		animation-delay: 0.4s;
   		transform: rotate(-200deg);
@@ -137,7 +137,7 @@ header {
 		width: 35vw;
 		top: 30vh;
   		left: 45vw;
-  		z-index: 0;
+  		z-index: -2;
   		animation-name: green;
 		animation-delay: 0.5s;
   		transform: skewY(5deg);
