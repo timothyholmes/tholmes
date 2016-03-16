@@ -25,7 +25,7 @@ $box-color: #3660FA;
 
 @keyframes green {
   0% {
-  	margin-top: 2000px;
+  	margin-left: 1000px;
 	opacity: 1;
   	transform: skewY(5deg);
   }
@@ -93,7 +93,7 @@ header {
 		$color1: #3660FA;
 		background-color: rgba( $color1, 0.5 );
 		height: 45vh;
-		width: 45vw;
+		width: 40vw;
 		top: 20vh;
   		left: 30vw;
   		z-index: -3;
@@ -116,7 +116,7 @@ header {
 		background-color: rgba( $color3, 0.5 );
 		height: 45vh;
 		width: 35vw;
-		top: 30vh;
+		top: 35vh;
   		left: 45vw;
   		z-index: -2;
   		animation-name: green;

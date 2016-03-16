@@ -15,7 +15,7 @@
 
 @keyframes green {
   0% {
-    margin-top: 2000px;
+    margin-left: 1000px;
     opacity: 1;
     transform: skewY(5deg); }
   100% {
@@ -68,7 +68,7 @@ header {
   header #box1 {
     background-color: rgba(54, 96, 250, 0.5);
     height: 45vh;
-    width: 45vw;
+    width: 40vw;
     top: 20vh;
     left: 30vw;
     z-index: -3;
@@ -87,7 +87,7 @@ header {
     background-color: rgba(28, 232, 148, 0.5);
     height: 45vh;
     width: 35vw;
-    top: 30vh;
+    top: 35vh;
     left: 45vw;
     z-index: -2;
     animation-name: green;
