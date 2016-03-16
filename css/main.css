@@ -42,10 +42,10 @@
     margin-left: 0px;
     opacity: 1; } }
 
-@keyframes grow {
+@keyframes fade {
   0% {
-    margin-top: 700px; }
-  99% {
+    opacity: 0; }
+  100% {
     opacity: 1; } }
 
 html body {
@@ -58,18 +58,16 @@ header {
   height: 100vh; }
   header h1 {
     font-weight: 900;
-    font-size: 20vmin;
-    /*animation-name: grow;
-		animation-duration: 1s;  
-		animation-delay: 1s;
-		opacity: 0;
-		animation-fill-mode: forwards;*/ }
+    font-size: 20vmin; }
   header h4 {
     font-weight: 700;
-    font-size: 5vmin;
-    /*animation-name: grow;
-		animation-duration: 1s; 
-		animation-delay: 1s;*/ }
+    font-size: 5vmin; }
+  header h1, header h4 {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards; }
   header .box {
     position: absolute;
     opacity: 0;
