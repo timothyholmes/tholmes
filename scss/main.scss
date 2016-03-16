@@ -87,7 +87,7 @@ header {
 		position: absolute;
   		opacity: 0;
 		animation-fill-mode: forwards;
-		animation-duration: 0.75s;
+		animation-duration: 1.2s;
 	}
 	#box1 {
 		$color1: #3660FA;
@@ -98,7 +98,7 @@ header {
   		left: 30vw;
   		z-index: -3;
   		animation-name: blue;
-		animation-delay: 0.2s;
+		animation-delay: 0.4s;
 	}
 	#box2 {
 		$color2: #FA3684;
@@ -109,7 +109,7 @@ header {
   		left: 20vw;
   		z-index: -2;
 		animation-name: pink;
-		animation-delay: 0.4s;
+		animation-delay: 0.8s;
 	}
 	#box3 {
 		$color3: #1CE894;
@@ -120,7 +120,7 @@ header {
   		left: 45vw;
   		z-index: -2;
   		animation-name: green;
-		animation-delay: 0.5s;
+		animation-delay: 0.9s;
 	}
 }
 

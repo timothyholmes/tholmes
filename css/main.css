@@ -64,7 +64,7 @@ header {
     position: absolute;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-duration: 0.75s; }
+    animation-duration: 1.2s; }
   header #box1 {
     background-color: rgba(54, 96, 250, 0.5);
     height: 45vh;
@@ -73,7 +73,7 @@ header {
     left: 30vw;
     z-index: -3;
     animation-name: blue;
-    animation-delay: 0.2s; }
+    animation-delay: 0.4s; }
   header #box2 {
     background-color: rgba(250, 54, 132, 0.5);
     height: 30vh;
@@ -82,7 +82,7 @@ header {
     left: 20vw;
     z-index: -2;
     animation-name: pink;
-    animation-delay: 0.4s; }
+    animation-delay: 0.8s; }
   header #box3 {
     background-color: rgba(28, 232, 148, 0.5);
     height: 45vh;
@@ -91,7 +91,7 @@ header {
     left: 45vw;
     z-index: -2;
     animation-name: green;
-    animation-delay: 0.5s; }
+    animation-delay: 0.9s; }
 
 .content-row {
   padding-top: 50px;
