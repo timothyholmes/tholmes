@@ -4,9 +4,10 @@ $light-bg: #EAEEF1;
 $dark-bg: #3C565E;
 $box-color: #3660FA;
 
-@keyframes topdrop {
+@keyframes blue {
   0% {
   	margin-top: -700px;
+	opacity: 1;
   }
   30% {
   	transform: rotate(0deg);
@@ -19,6 +20,48 @@ $box-color: #3660FA;
   }
   100% {
 	margin-top: 0px;  
+	opacity: 1;
+  }
+}
+
+@keyframes green {
+  0% {
+  	margin-top: 2000px;
+	opacity: 1;
+  }
+  30% {
+  	transform: rotate(0deg);
+  }
+  55% {
+  	transform: rotate(5deg);
+  }
+  85% {
+  	transform: rotate(-5deg);
+  }
+  100% {
+	margin-top: 0px;  
+	opacity: 1;
+  }
+}
+
+@keyframes pink {
+  0% {
+  	margin-left: -700px;
+	opacity: 1;
+  }
+  25% {
+  	transform: rotate(-50deg);
+  }
+  50% {
+  	transform: rotate(-100deg);
+  }
+  75% {
+  	transform: rotate(-150deg);
+  }
+  100% {
+  	transform: rotate(-200deg);
+  	margin-left: 0px;
+	opacity: 1;
   }
 }
 
@@ -27,10 +70,7 @@ $box-color: #3660FA;
 		margin-top: 700px;
 	}
 	99% {
-
 		opacity: 1;
-	}
-	100% {
 	}
 }
 
@@ -62,34 +102,39 @@ header {
 	.box {
 		position: absolute;
   		z-index: -2;
+  		opacity: 0;
+		animation-fill-mode: forwards;
+		animation-duration: 0.75s;
 	}
 	#box1 {
 		background-color: rgba( #3660FA, 0.5 );
-		height: 45vmin;
-		width: 50vmin;
+		height: 45vh;
+		width: 45vw;
 		top: 20vh;
   		left: 30vw;
-  		animation-name: topdrop;
-		animation-duration: 0.75s;  
+  		animation-name: blue;
+		animation-delay: 0.2s;
   		transform: skewX(-25deg);
 	}
 	#box2 {
 		background-color: rgba( #FA3684, 0.5 );
-		height: 30vmin;
-		width: 20vmin;
-		top: 15vh;
-  		left: 25vw;
-  		animation-name: topdrop;
-		animation-duration: 0.75s;  
+		height: 30vh;
+		width: 20vw;
+		top: 20vh;
+  		left: 20vw;
+		animation-name: pink;
+		animation-delay: 0.4s;
+  		transform: rotate(-200deg);
 	}
 	#box3 {
 		background-color: rgba( #1CE872, 0.5 );
-		height: 45vmin;
-		width: 65vmin;
+		height: 45vh;
+		width: 35vw;
 		top: 30vh;
   		left: 45vw;
-  		animation-name: topdrop;
-		animation-duration: 0.75s;  
+  		animation-name: green;
+		animation-delay: 0.5s;
+  		transform: skewY(5deg);
 	}
 }
 
