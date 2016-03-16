@@ -1,30 +1,83 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
-html body {
-  font-family: 'Roboto', sans-serif; }
+@keyframes topdrop {
+  0% {
+    margin-top: -700px; }
+  30% {
+    transform: rotate(0deg); }
+  55% {
+    transform: rotate(5deg); }
+  85% {
+    transform: rotate(-5deg); }
+  100% {
+    margin-top: 0px; } }
 
-#header {
+@keyframes grow {
+  0% {
+    margin-top: 700px; }
+  99% {
+    opacity: 1; }
+  100% { } }
+
+html body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
+
+header {
   padding-top: 30vh;
   text-align: center;
   height: 100vh; }
-  #header h1 {
-    font-size: 20vmin; }
-  #header h4 {
-    font-size: 5vmin; }
+  header h1 {
+    font-weight: 900;
+    font-size: 20vmin;
+    /*animation-name: grow;
+		animation-duration: 1s;  
+		animation-delay: 1s;
+		opacity: 0;
+		animation-fill-mode: forwards;*/ }
+  header h4 {
+    font-weight: 700;
+    font-size: 5vmin;
+    /*animation-name: grow;
+		animation-duration: 1s; 
+		animation-delay: 1s;*/ }
+  header .box {
+    position: absolute;
+    z-index: -2; }
+  header #box1 {
+    background-color: rgba(54, 96, 250, 0.5);
+    height: 45vmin;
+    width: 50vmin;
+    top: 20vh;
+    left: 30vw;
+    animation-name: topdrop;
+    animation-duration: 0.75s;
+    transform: skewX(-25deg); }
+  header #box2 {
+    background-color: rgba(250, 54, 132, 0.5);
+    height: 30vmin;
+    width: 20vmin;
+    top: 15vh;
+    left: 25vw;
+    animation-name: topdrop;
+    animation-duration: 0.75s; }
+  header #box3 {
+    background-color: rgba(28, 232, 114, 0.5);
+    height: 45vmin;
+    width: 65vmin;
+    top: 30vh;
+    left: 45vw;
+    animation-name: topdrop;
+    animation-duration: 0.75s; }
 
 .content-row {
   padding-top: 40px;
   padding-bottom: 40px; }
   .content-row h2 {
+    font-weight: 700;
     text-align: center; }
 
 #about, #work {
   background-color: #EAEEF1; }
-
-h1 {
-  font-weight: 900; }
-
-h2, h4 {
-  font-weight: 700; }
 
 hr {
   border: 1px solid #3C565E; }

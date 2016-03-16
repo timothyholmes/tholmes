@@ -2,20 +2,94 @@
 
 $light-bg: #EAEEF1;
 $dark-bg: #3C565E;
+$box-color: #3660FA;
+
+@keyframes topdrop {
+  0% {
+  	margin-top: -700px;
+  }
+  30% {
+  	transform: rotate(0deg);
+  }
+  55% {
+  	transform: rotate(5deg);
+  }
+  85% {
+  	transform: rotate(-5deg);
+  }
+  100% {
+	margin-top: 0px;  
+  }
+}
+
+@keyframes grow {
+	0% {
+		margin-top: 700px;
+	}
+	99% {
+
+		opacity: 1;
+	}
+	100% {
+	}
+}
 
 html body {
 	font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
-#header {
+header {
 	padding-top: 30vh;
 	text-align: center;
 	height: 100vh;
 	h1 {
+		font-weight: 900;
 		font-size: 20vmin;
+  		/*animation-name: grow;
+		animation-duration: 1s;  
+		animation-delay: 1s;
+		opacity: 0;
+		animation-fill-mode: forwards;*/
 	}
 	h4 {
+		font-weight: 700;
 		font-size: 5vmin;
+  		/*animation-name: grow;
+		animation-duration: 1s; 
+		animation-delay: 1s;*/
+	}
+	.box {
+		position: absolute;
+  		z-index: -2;
+	}
+	#box1 {
+		background-color: rgba( #3660FA, 0.5 );
+		height: 45vmin;
+		width: 50vmin;
+		top: 20vh;
+  		left: 30vw;
+  		animation-name: topdrop;
+		animation-duration: 0.75s;  
+  		transform: skewX(-25deg);
+	}
+	#box2 {
+		background-color: rgba( #FA3684, 0.5 );
+		height: 30vmin;
+		width: 20vmin;
+		top: 15vh;
+  		left: 25vw;
+  		animation-name: topdrop;
+		animation-duration: 0.75s;  
+	}
+	#box3 {
+		background-color: rgba( #1CE872, 0.5 );
+		height: 45vmin;
+		width: 65vmin;
+		top: 30vh;
+  		left: 45vw;
+  		animation-name: topdrop;
+		animation-duration: 0.75s;  
 	}
 }
 
@@ -23,20 +97,13 @@ html body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	h2 {
+		font-weight: 700;
 		text-align: center;
 	}
 }
 
 #about, #work {
 	background-color: $light-bg;
-}
-
-h1 {
-	font-weight: 900;
-}
-
-h2, h4 {
-	font-weight: 700;
 }
 
 hr {
