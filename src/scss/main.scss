@@ -5,166 +5,180 @@ $dark-bg: #3C565E;
 $box-color: #3660FA;
 
 @keyframes blue {
-  0% {
-  	margin-top: -700px;
-	opacity: 1;
-  	transform: skewX(0deg);
-  }
-  40% {
-	margin-top: 0px;  
-  	transform: skewX(0deg);
-  }
-  70% {
-  	transform: skewX(0deg);
-  }
-  100% {
-	opacity: 1;
-  	transform: skewX(-20deg);
-  }
+    0% {
+        margin-top: -700px;
+        opacity: 1;
+        transform: skewX(0deg);
+    }
+    40% {
+        margin-top: 0px;
+        transform: skewX(0deg);
+    }
+    70% {
+        transform: skewX(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: skewX(-20deg);
+    }
 }
 
 @keyframes green {
-  0% {
-  	margin-left: 1000px;
-	opacity: 1;
-  	transform: skewY(5deg);
-  }
-  100% {
-  	transform: skewY(5deg);
-	opacity: 1;
-  }
+    0% {
+        margin-left: 1000px;
+        opacity: 1;
+        transform: skewY(5deg);
+    }
+    100% {
+        transform: skewY(5deg);
+        opacity: 1;
+    }
 }
 
 @keyframes pink {
-  from {
-  	margin-left: -700px;
-	opacity: 1;
-  }
-  to {
-  	transform: rotate(1.5turn);
-  	transform: rotate(-200deg);
-  	margin-left: 0px;
-	opacity: 1;
-  }
+    from {
+        margin-left: -700px;
+        opacity: 1;
+    }
+    to {
+        transform: rotate(1.5turn);
+        transform: rotate(-200deg);
+        margin-left: 0px;
+        opacity: 1;
+    }
 }
 
 @keyframes fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-  		z-index: 0;
-	}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        z-index: 0;
+    }
 }
 
 html body {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
 
 header {
-	padding-top: 30vh;
-	text-align: center;
-	height: 100vh;
-	h1 {
-		font-weight: 900;
-		font-size: 20vmin;
-	}
-	h4 {
-		font-weight: 700;
-		font-size: 5vmin;
-	}
-	h1, h4 {
-		opacity: 0;
-  		animation-name: fade;
-		animation-duration: 1s;  
-		animation-delay: 1.5s;
-		animation-fill-mode: forwards;
-  		z-index: 1;
-	}
-	.box {
-		position: absolute;
-  		opacity: 0;
-		animation-fill-mode: forwards;
-		animation-duration: 1.2s;
-	}
-	#box1 {
-		$color1: #3660FA;
-		background-color: rgba( $color1, 0.5 );
-		height: 45vh;
-		width: 40vw;
-		top: 20vh;
-  		left: 30vw;
-  		z-index: -3;
-  		animation-name: blue;
-		animation-delay: 0.4s;
-	}
-	#box2 {
-		$color2: #FA3684;
-		background-color: rgba( $color2, 0.5 );
-		height: 30vh;
-		width: 20vw;
-		top: 20vh;
-  		left: 20vw;
-  		z-index: -2;
-		animation-name: pink;
-		animation-delay: 0.8s;
-	}
-	#box3 {
-		$color3: #1CE894;
-		background-color: rgba( $color3, 0.5 );
-		height: 45vh;
-		width: 35vw;
-		top: 35vh;
-  		left: 45vw;
-  		z-index: -2;
-  		animation-name: green;
-		animation-delay: 0.9s;
-	}
+    padding-top: 30vh;
+    text-align: center;
+    height: 100vh;
+
+    h1 {
+        font-weight: 900;
+        font-size: 20vmin;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 5vmin;
+    }
+
+    h1,
+    h4 {
+        opacity: 0;
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        z-index: 1;
+    }
+
+    .box {
+        position: absolute;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-duration: 1.2s;
+    }
+
+    #box1 {
+        $color1: #3660FA;
+        background-color: rgba( $color1, 0.5 );
+        height: 45vh;
+        width: 40vw;
+        top: 20vh;
+        left: 30vw;
+        z-index: -3;
+        animation-name: blue;
+        animation-delay: 0.4s;
+    }
+
+    #box2 {
+        $color2: #FA3684;
+        background-color: rgba( $color2, 0.5 );
+        height: 30vh;
+        width: 20vw;
+        top: 20vh;
+        left: 20vw;
+        z-index: -2;
+        animation-name: pink;
+        animation-delay: 0.8s;
+    }
+
+    #box3 {
+        $color3: #1CE894;
+        background-color: rgba( $color3, 0.5 );
+        height: 45vh;
+        width: 35vw;
+        top: 35vh;
+        left: 45vw;
+        z-index: -2;
+        animation-name: green;
+        animation-delay: 0.9s;
+    }
 }
 
 .content-row {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	z-index: 1;
-	h2 {
-		font-weight: 700;
-		text-align: center;
-	}
-	h4 {
-		font-weight: 700;
-	}
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 1;
+
+    h2 {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h4 {
+        font-weight: 700;
+    }
 }
 
-#about, #work {
-	background-color: $light-bg;
+#about,
+#work {
+    background-color: $light-bg;
 }
 
 hr {
-	border: 1px solid $dark-bg;
+    border: 1px solid $dark-bg;
 }
 
 footer {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: $dark-bg;
-	color: #ffffff;
-	text-align: center;
-	.icon-row {
-		margin-bottom: 20px;
-	}
-	img {
-		max-width: 50px;
-	}
-	a {
-		color: #ffffff;
-		&:hover {
-			color: $light-bg;
-		}
-		&:visited {
-			color: $light-bg;
-			text-decoration: none;
-		}
-	}
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $dark-bg;
+    color: #ffffff;
+    text-align: center;
+
+    .icon-row {
+        margin-bottom: 20px;
+    }
+
+    img {
+        max-width: 50px;
+    }
+
+    a {
+        color: #ffffff;
+        &:hover {
+            color: $light-bg;
+        }
+        &:visited {
+            color: $light-bg;
+            text-decoration: none;
+        }
+    }
 }
