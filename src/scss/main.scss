@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
 $light-bg: #EAEEF1;
-$dark-bg: #3C565E;
+$dark-bg: #EAEEF1;
 $box-color: #3660FA;
 
 @keyframes blue {
@@ -75,7 +75,7 @@ header {
 
     h4 {
         font-weight: 700;
-        font-size: 5vmin;
+        font-size: 2.5vmin;
     }
 
     h1,
@@ -134,10 +134,15 @@ header {
 
 .content-row {
     padding-top: 50px;
-    padding-bottom: 50px;
     z-index: 1;
+    line-height: 27px;
 
     h2 {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h3 {
         font-weight: 700;
         text-align: center;
     }
@@ -145,11 +150,16 @@ header {
     h4 {
         font-weight: 700;
     }
+
+    .top-blurb {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 175px;
+    }
 }
 
-#about,
-#work {
-    background-color: $light-bg;
+.bottom {
+    margin-bottom: 100px;
 }
 
 hr {
@@ -159,26 +169,5 @@ hr {
 footer {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: $dark-bg;
-    color: #ffffff;
-    text-align: center;
-
-    .icon-row {
-        margin-bottom: 20px;
-    }
-
-    img {
-        max-width: 50px;
-    }
-
-    a {
-        color: #ffffff;
-        &:hover {
-            color: $light-bg;
-        }
-        &:visited {
-            color: $light-bg;
-            text-decoration: none;
-        }
-    }
+    // background-color: $light-bg;
 }
