@@ -44,5 +44,4 @@ gulp watch
 
 ## To Do
 
-+ Add color to bio section
 + enlarge SD tagline

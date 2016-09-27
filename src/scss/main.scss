@@ -48,6 +48,30 @@ $box-color: #3660FA;
     }
 }
 
+@keyframes orange {
+    from {
+        margin-left: -700px;
+        opacity: 1;
+    }
+    to {
+        transform: rotate(-20deg);
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes yellow {
+    from {
+        margin-left: 1000px;
+        opacity: 1;
+    }
+    to {
+        transform: rotate(20deg);
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
 @keyframes fade {
     0% {
         opacity: 0;
@@ -95,7 +119,7 @@ header {
         animation-duration: 1.2s;
     }
 
-    #box1 {
+    .box1 {
         $color1: #3660FA;
         background-color: rgba( $color1, 0.5 );
         height: 45vh;
@@ -107,7 +131,7 @@ header {
         animation-delay: 0.4s;
     }
 
-    #box2 {
+    .box2 {
         $color2: #FA3684;
         background-color: rgba( $color2, 0.5 );
         height: 30vh;
@@ -119,7 +143,7 @@ header {
         animation-delay: 0.8s;
     }
 
-    #box3 {
+    .box3 {
         $color3: #1CE894;
         background-color: rgba( $color3, 0.5 );
         height: 45vh;
@@ -128,6 +152,30 @@ header {
         left: 45vw;
         z-index: -2;
         animation-name: green;
+        animation-delay: 0.9s;
+    }
+
+    .box4 {
+        $color4: #ff3c34;
+        background-color: rgba( $color4, 0.5 );
+        height: 35vh;
+        width: 25vw;
+        top: 85vh;
+        left: 20vw;
+        z-index: -2;
+        animation-name: orange;
+        animation-delay: 0.9s;
+    }
+
+    .box5 {
+        $color5: #eecd4a;
+        background-color: rgba( $color5, 0.5 );
+        height: 35vh;
+        width: 25vw;
+        top: 115vh;
+        left: 50vw;
+        z-index: -2;
+        animation-name: yellow;
         animation-delay: 0.9s;
     }
 }
