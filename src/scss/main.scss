@@ -99,7 +99,7 @@ header {
 
     h4 {
         font-weight: 700;
-        font-size: 2.5vmin;
+        font-size: 5vmin;
     }
 
     h1,
@@ -168,15 +168,16 @@ header {
     }
 
     .box5 {
-        $color5: #eecd4a;
+        // $color5: #eecd4a;
+        $color5: #ff0000;
         background-color: rgba( $color5, 0.5 );
         height: 35vh;
         width: 25vw;
-        top: 115vh;
-        left: 50vw;
+        // top: 115vh;
+        // left: 50vw;
         z-index: -2;
-        animation-name: yellow;
-        animation-delay: 0.9s;
+        // animation-name: yellow;
+        // animation-delay: 0.9s;
     }
 }
 
