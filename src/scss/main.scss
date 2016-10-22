@@ -60,9 +60,9 @@ $box-color: #3660FA;
     }
 }
 
-@keyframes yellow {
+@keyframes yella {
     from {
-        margin-left: 1000px;
+        margin-left: 200px;
         opacity: 1;
     }
     to {
@@ -162,24 +162,24 @@ header {
         width: 25vw;
         top: 85vh;
         left: 20vw;
-        z-index: -2;
+        z-index: -3;
         animation-name: orange;
         animation-delay: 0.9s;
     }
 
     .box5 {
-        // $color5: #eecd4a;
-        $color5: #ff0000;
+        $color5: #eecd4a;
         background-color: rgba( $color5, 0.5 );
         height: 35vh;
         width: 25vw;
-        // top: 115vh;
-        // left: 50vw;
+        top: 115vh;
+        left: 50vw;
         z-index: -2;
-        // animation-name: yellow;
-        // animation-delay: 0.9s;
+        animation-name: yella;
+        animation-delay: 0.2s;
     }
 }
+
 
 .content-row {
     padding-top: 50px;
