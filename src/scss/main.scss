@@ -3,6 +3,11 @@
 $light-bg: #EAEEF1;
 $dark-bg: #EAEEF1;
 $box-color: #3660FA;
+$color1: #3660FA;
+$color2: #FA3684;
+$color3: #1CE894;
+$color4: #ff3c34;
+$color5: #eecd4a;
 
 @keyframes blue {
     0% {
@@ -120,7 +125,6 @@ header {
     }
 
     .box1 {
-        $color1: #3660FA;
         background-color: rgba( $color1, 0.5 );
         height: 45vh;
         width: 40vw;
@@ -132,7 +136,6 @@ header {
     }
 
     .box2 {
-        $color2: #FA3684;
         background-color: rgba( $color2, 0.5 );
         height: 30vh;
         width: 20vw;
@@ -144,7 +147,6 @@ header {
     }
 
     .box3 {
-        $color3: #1CE894;
         background-color: rgba( $color3, 0.5 );
         height: 45vh;
         width: 35vw;
@@ -156,7 +158,6 @@ header {
     }
 
     .box4 {
-        $color4: #ff3c34;
         background-color: rgba( $color4, 0.5 );
         height: 35vh;
         width: 25vw;
@@ -168,7 +169,6 @@ header {
     }
 
     .box5 {
-        $color5: #eecd4a;
         background-color: rgba( $color5, 0.5 );
         height: 35vh;
         width: 25vw;
