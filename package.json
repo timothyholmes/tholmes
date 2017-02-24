@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "watch-sass": "nodemon -e scss -w lib/src/style/scss -x 'npm run build-sass'",
+    "watch-sass": "nodemon -e scss -w lib/src/scss -x 'npm run build-sass'",
     "build-sass": "node-sass --output-style nested lib/src/scss/main.scss lib/src/css/main.css",
     "deploy": "npm run build-sass && npm start",
     "clean": "rm -r lib/src/css"

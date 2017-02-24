@@ -1,81 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
-$light-bg: #EAEEF1;
-$dark-bg: #EAEEF1;
-$box-color: #3660FA;
-$color1: #3660FA;
-$color2: #FA3684;
-$color3: #1CE894;
-$color4: #ff3c34;
-$color5: #eecd4a;
-
-@keyframes blue {
-    0% {
-        margin-top: -700px;
-        opacity: 1;
-        transform: skewX(0deg);
-    }
-    40% {
-        margin-top: 0px;
-        transform: skewX(0deg);
-    }
-    70% {
-        transform: skewX(0deg);
-    }
-    100% {
-        opacity: 1;
-        transform: skewX(-20deg);
-    }
-}
-
-@keyframes green {
-    0% {
-        margin-left: 1000px;
-        opacity: 1;
-        transform: skewY(5deg);
-    }
-    100% {
-        transform: skewY(5deg);
-        opacity: 1;
-    }
-}
-
-@keyframes pink {
-    from {
-        margin-left: -700px;
-        opacity: 1;
-    }
-    to {
-        transform: rotate(1.5turn);
-        transform: rotate(-200deg);
-        margin-left: 0px;
-        opacity: 1;
-    }
-}
-
-@keyframes orange {
-    from {
-        margin-left: -700px;
-        opacity: 1;
-    }
-    to {
-        transform: rotate(-20deg);
-        margin-left: 0px;
-        opacity: 1;
-    }
-}
-
-@keyframes yella {
-    from {
-        margin-left: 200px;
-        opacity: 1;
-    }
-    to {
-        transform: rotate(20deg);
-        margin-left: 0px;
-        opacity: 1;
-    }
-}
+$medium-grey: #EAEEF1;
+$light-color: #ffffff;
+$dark-color: #546475;
 
 @keyframes fade {
     0% {
@@ -90,93 +17,37 @@ $color5: #eecd4a;
 html body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+
+    hr {
+        border: 1px solid $dark-color;
+    }
 }
 
-header {
-    padding-top: 30vh;
+.header {
+    padding-top: 15vh;
     text-align: center;
-    height: 100vh;
+    height: 65vh;
+    background-color: $light-color;
+    color: $dark-color;
 
-    h1 {
+    .main-header {
         font-weight: 900;
         font-size: 20vmin;
     }
 
-    h4 {
+    .sub-header {
         font-weight: 700;
         font-size: 5vmin;
     }
 
-    h1,
-    h4 {
+    .main-header,
+    .sub-header {
         opacity: 0;
         animation-name: fade;
         animation-duration: 1s;
         animation-delay: 1.5s;
         animation-fill-mode: forwards;
         z-index: 1;
-    }
-
-    .box {
-        position: absolute;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        animation-duration: 1.2s;
-    }
-
-    .box1 {
-        background-color: rgba( $color1, 0.5 );
-        height: 45vh;
-        width: 40vw;
-        top: 20vh;
-        left: 30vw;
-        z-index: -3;
-        animation-name: blue;
-        animation-delay: 0.4s;
-    }
-
-    .box2 {
-        background-color: rgba( $color2, 0.5 );
-        height: 30vh;
-        width: 20vw;
-        top: 20vh;
-        left: 20vw;
-        z-index: -2;
-        animation-name: pink;
-        animation-delay: 0.8s;
-    }
-
-    .box3 {
-        background-color: rgba( $color3, 0.5 );
-        height: 45vh;
-        width: 35vw;
-        top: 35vh;
-        left: 45vw;
-        z-index: -2;
-        animation-name: green;
-        animation-delay: 0.9s;
-    }
-
-    .box4 {
-        background-color: rgba( $color4, 0.5 );
-        height: 35vh;
-        width: 25vw;
-        top: 85vh;
-        left: 20vw;
-        z-index: -3;
-        animation-name: orange;
-        animation-delay: 0.9s;
-    }
-
-    .box5 {
-        background-color: rgba( $color5, 0.5 );
-        height: 35vh;
-        width: 25vw;
-        top: 115vh;
-        left: 50vw;
-        z-index: -2;
-        animation-name: yella;
-        animation-delay: 0.2s;
     }
 }
 
@@ -199,23 +70,11 @@ header {
     h4 {
         font-weight: 700;
     }
-
-    .top-blurb {
-        font-size: 25px;
-        text-align: center;
-        margin-bottom: 175px;
-    }
 }
 
-.bottom {
-    margin-bottom: 100px;
-}
-
-hr {
-    border: 1px solid $dark-bg;
-}
-
-footer {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.footer {
+    margin-top: 50px;
+    height: 70px;
+    width: 100%;
+    background-color: $dark-color;
 }
