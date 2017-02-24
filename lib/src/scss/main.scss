@@ -17,6 +17,12 @@ $dark-color: #546475;
 html body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    z-index: 1;
 
     hr {
         border: 1px solid $dark-color;
@@ -38,16 +44,6 @@ html body {
     .sub-header {
         font-weight: 700;
         font-size: 5vmin;
-    }
-
-    .main-header,
-    .sub-header {
-        opacity: 0;
-        animation-name: fade;
-        animation-duration: 1s;
-        animation-delay: 1.5s;
-        animation-fill-mode: forwards;
-        z-index: 1;
     }
 }
 
