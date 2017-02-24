@@ -2,46 +2,22 @@
 
 [Live version here](http://timholm.es/)
 
-## Building
-
-To install dependencies
+### Build + start server
 
 ```shell
-npm install
+npm run deploy
 ```
 
-Note: To use gulp, make sure you have it installed globally on your system
+### Dev scripts
+
+Watch sass
 
 ```shell
-npm install gulp -g
+npm run watch-sass
 ```
 
-Default build (build project + start webserver + watch sass)
+Start server
 
 ```shell
-gulp default
+npm start
 ```
-
-## Gulp tasks
-
-To compile sass, minify css, and minify JS into a 'dist' folder
-
-```shell
-gulp build
-```
-
-To run webserver
-
-```shell
-gulp webserver
-```
-
-Watch Sass for changes
-
-```shell
-gulp watch
-```
-
-## To Do
-
-+ enlarge SD tagline

@@ -4,7 +4,11 @@
   "description": "Personal site for Tim Holmes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "watch-sass": "nodemon -e scss -w lib/src/style/scss -x 'npm run build-sass'",
+    "build-sass": "node-sass --output-style nested lib/src/scss/main.scss lib/src/css/main.css",
+    "deploy": "npm run build-sass && npm start",
+    "clean": "rm -r lib/src/css"
   },
   "repository": {
     "type": "git",
@@ -15,18 +19,17 @@
   "bugs": {
     "url": "https://github.com/timothyholmes/tholmes/issues"
   },
-  "homepage": "http://cs.odu.edu/~tholmes",
+  "homepage": "http://timholm.es",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "good": "^7.0.1",
+    "good-console": "^6.1.2",
+    "good-squeeze": "^4.0.0",
+    "hapi": "^14.2.0",
+    "inert": "^4.0.2"
+  },
   "devDependencies": {
-      "del": "^2.2.0",
-      "es6-promise": "^3.1.2",
-      "gulp": "^3.9.1",
-      "gulp-connect": "^3.2.0",
-      "gulp-cssnano": "^2.1.1",
-      "gulp-flatten": "^0.2.0",
-      "gulp-if": "^2.0.0",
-      "gulp-sass": "^2.2.0",
-      "gulp-uglify": "^1.5.3",
-      "gulp-useref": "^3.0.7",
-      "run-sequence": "^1.1.5"
-    }
+    "node-sass": "^3.13.0",
+    "nodemon": "^1.11.0"
+  }
 }
