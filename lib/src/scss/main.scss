@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
 
 $medium-grey: #EAEEF1;
-$light-color: #fdfcff;
-$dark-color: #546475;
+$black: #151d3e;
+$white: #ffffff;
+$dark-accent: #546475;
+
+@import "./blocks";
+@import "./animations";
 
 @keyframes fade {
     0% {
@@ -25,28 +29,32 @@ html body {
     z-index: 1;
 
     hr {
-        border: 1px solid $dark-color;
+        border: 1px solid $dark-accent;
     }
 }
 
 .header {
-    padding-top: 15vh;
+    padding-top: 30vh;
     text-align: center;
-    height: 65vh;
-    background-color: $light-color;
-    color: $dark-color;
+    height: 100vh;
+    color: $black;
 
     .main-header {
         font-weight: 900;
         font-size: 20vmin;
+        z-index: 500;
     }
 
     .sub-header {
         font-weight: 700;
         font-size: 5vmin;
+        z-index: 500;
     }
 }
 
+.blurb {
+    font-size: 16px;
+}
 
 .content-row {
     padding-top: 50px;
@@ -72,5 +80,5 @@ html body {
     margin-top: 50px;
     height: 70px;
     width: 100%;
-    background-color: $dark-color;
+    background-color: $white;
 }
