@@ -1,0 +1,67 @@
+.block {
+    position: absolute;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+}
+
+.block-one {
+    $color1: #3660FA;
+    background-color: rgba( $color1, 0.5 );
+    height: 45vh;
+    width: 40vw;
+    top: 20vh;
+    left: 30vw;
+    z-index: -1;
+    animation-name: dropin;
+    animation-delay: 0.4s;
+}
+
+
+.block-two {
+    $color2: #FA3684;
+    background-color: rgba( $color2, 0.5 );
+    height: 30vh;
+    width: 20vw;
+    top: 20vh;
+    left: 20vw;
+    z-index: -2;
+    animation-name: pink;
+    animation-delay: 0.8s;
+}
+
+.block-three {
+    $color3: #1CE894;
+    background-color: rgba( $color3, 0.5 );
+    height: 45vh;
+    width: 35vw;
+    top: 35vh;
+    left: 45vw;
+    z-index: -2;
+    animation-name: green;
+    animation-delay: 0.9s;
+}
+
+.block-four {
+    $color4: #ff3c34;
+    background-color: rgba( $color4, 0.5 );
+    height: 35vh;
+    width: 25vw;
+    top: 85vh;
+    left: 20vw;
+    z-index: -3;
+    animation-name: orange;
+    animation-delay: 0.9s;
+}
+
+.block-five {
+    $color5: #eecd4a;
+    background-color: rgba( $color5, 0.5 );
+    height: 35vh;
+    width: 25vw;
+    top: 115vh;
+    left: 50vw;
+    z-index: -2;
+    animation-name: yella;
+    animation-delay: 0.2s;
+}
