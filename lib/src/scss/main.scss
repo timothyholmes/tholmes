@@ -36,7 +36,7 @@ html body {
 .header {
     padding-top: 30vh;
     text-align: center;
-    height: 100vh;
+    height: 75vh;
     color: $black;
 
     .main-header {
@@ -60,6 +60,7 @@ html body {
     padding-top: 50px;
     z-index: 1;
     line-height: 27px;
+    text-align: center;
 
     h2 {
         font-weight: 700;
