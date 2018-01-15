@@ -1,0 +1,132 @@
+html body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    padding-top: 30vh;
+    text-align: center;
+    height: 100vh;
+
+    h1 {
+        font-weight: 900;
+        font-size: 20vmin;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 5vmin;
+    }
+
+    h1,
+    h4 {
+        opacity: 0;
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        z-index: 1;
+    }
+
+    .box {
+        position: absolute;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-duration: 1.2s;
+    }
+
+    .box1 {
+        background-color: rgba( $color1, 0.5 );
+        height: 45vh;
+        width: 40vw;
+        top: 20vh;
+        left: 30vw;
+        z-index: -3;
+        animation-name: blue;
+        animation-delay: 0.4s;
+    }
+
+    .box2 {
+        background-color: rgba( $color2, 0.5 );
+        height: 30vh;
+        width: 20vw;
+        top: 20vh;
+        left: 20vw;
+        z-index: -2;
+        animation-name: pink;
+        animation-delay: 0.8s;
+    }
+
+    .box3 {
+        background-color: rgba( $color3, 0.5 );
+        height: 45vh;
+        width: 35vw;
+        top: 35vh;
+        left: 45vw;
+        z-index: -2;
+        animation-name: green;
+        animation-delay: 0.9s;
+    }
+
+    .box4 {
+        background-color: rgba( $color4, 0.5 );
+        height: 35vh;
+        width: 25vw;
+        top: 85vh;
+        left: 20vw;
+        z-index: -3;
+        animation-name: orange;
+        animation-delay: 0.9s;
+    }
+
+    .box5 {
+        background-color: rgba( $color5, 0.5 );
+        height: 35vh;
+        width: 25vw;
+        top: 115vh;
+        left: 50vw;
+        z-index: -2;
+        animation-name: yella;
+        animation-delay: 0.2s;
+    }
+}
+
+
+.content-row {
+    padding-top: 50px;
+    z-index: 1;
+    line-height: 27px;
+
+    h2 {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h3 {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h4 {
+        font-weight: 700;
+    }
+
+    .top-blurb {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 175px;
+    }
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+hr {
+    border: 1px solid $dark-bg;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
