@@ -1,4 +1,4 @@
-@keyframes dropin {
+@keyframes blue {
     0% {
         margin-top: -700px;
         opacity: 1;
@@ -63,5 +63,15 @@
         transform: rotate(20deg);
         margin-left: 0px;
         opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        z-index: 0;
     }
 }
