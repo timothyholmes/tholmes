@@ -55,6 +55,16 @@
   animation-name: yella;
   animation-delay: 0.2s; }
 
+.block-six {
+  background-color: rgba(130, 122, 198, 0.5);
+  height: 35vh;
+  width: 25vw;
+  top: 150vh;
+  left: 20vw;
+  z-index: -3;
+  animation-name: orange;
+  animation-delay: 0.9s; }
+
 @keyframes dropin {
   0% {
     margin-top: -700px;
@@ -140,22 +150,10 @@ html body {
     z-index: 500; }
 
 .content-row {
-  padding-top: 50px;
+  padding-top: 30vh;
   font-size: 1.5em;
   z-index: 1;
-  line-height: 27px;
+  height: 100vh;
   text-align: center; }
   .content-row h2 {
-    font-weight: 700;
-    text-align: center; }
-  .content-row h3 {
-    font-weight: 700;
-    text-align: center; }
-  .content-row h4 {
     font-weight: 700; }
-
-.footer {
-  margin-top: 50px;
-  height: 70px;
-  width: 100%;
-  background-color: #ffffff; }

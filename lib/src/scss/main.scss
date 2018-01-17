@@ -53,30 +53,13 @@ html body {
 }
 
 .content-row {
-    padding-top: 50px;
+    padding-top: 30vh;
     font-size: 1.5em;
     z-index: 1;
-    line-height: 27px;
+    height: 100vh;
     text-align: center;
 
     h2 {
         font-weight: 700;
-        text-align: center;
     }
-
-    h3 {
-        font-weight: 700;
-        text-align: center;
-    }
-
-    h4 {
-        font-weight: 700;
-    }
-}
-
-.footer {
-    margin-top: 50px;
-    height: 70px;
-    width: 100%;
-    background-color: $white;
 }
