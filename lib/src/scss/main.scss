@@ -36,7 +36,7 @@ html body {
 .header {
     padding-top: 30vh;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
     color: $black;
 
     .main-header {
@@ -52,12 +52,9 @@ html body {
     }
 }
 
-.blurb {
-    font-size: 16px;
-}
-
 .content-row {
     padding-top: 50px;
+    font-size: 1.5em;
     z-index: 1;
     line-height: 27px;
     text-align: center;
