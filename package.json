@@ -26,7 +26,8 @@
     "good-console": "^6.1.2",
     "good-squeeze": "^4.0.0",
     "hapi": "^14.2.0",
-    "inert": "^4.0.2"
+    "inert": "^4.0.2",
+    "joi": "^13.1.2"
   },
   "devDependencies": {
     "node-sass": "^3.13.0",
