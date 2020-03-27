@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
+
+:root {
+  --medium-grey: #EAEEF1;
+  --black: #151d3e;
+  --white: #ffffff;
+  --dark-accent: #546475;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    z-index: 0;
+  }
+}
+
+html body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 1s;
+  /* animation-delay: 0s; */
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+hr {
+  border: 1px solid var(--dark-accent);
+}
+
+.header {
+  padding-top: 30vh;
+  text-align: center;
+  height: 100vh;
+  color: var(--black);
+}
+
+.header .main-header {
+  font-weight: 900;
+  font-size: 20vmin;
+  z-index: 500;
+}
+
+.header .sub-header {
+  font-weight: 700;
+  font-size: 5vmin;
+  z-index: 500;
+}
+
+.content-row {
+  padding-top: 30vh;
+  font-size: 1.5em;
+  z-index: 1;
+  height: 100vh;
+  text-align: center;
+}
+
+.content-row h2 {
+  font-weight: 700;
+}
