@@ -14,9 +14,9 @@
 }
 
 .block-one {
-  --red: 54;
-  --green: 96;
-  --blue: 250;
+  --red: 250;
+  --green: 54;
+  --blue: 132;
   --height: 45vh;
   --width: 40vw;
   --top: 20vh;
@@ -27,9 +27,9 @@
 }
 
 .block-two {
-  --red: 250;
-  --green: 54;
-  --blue: 132;
+  --red: 54;
+  --green: 96;
+  --blue: 250;
   --height: 30vh;
   --width: 20vw;
   --top: 20vh;

@@ -32,13 +32,13 @@ hr {
 .header .main-header {
   font-weight: 900;
   font-size: 20vmin;
-  z-index: 500;
+  margin: 0;
 }
 
 .header .sub-header {
   font-weight: 700;
   font-size: 5vmin;
-  z-index: 500;
+  margin: 0;
 }
 
 .content-row {
